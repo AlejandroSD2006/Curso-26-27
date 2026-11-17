@@ -1,0 +1,246 @@
+BODY  {
+ background-color : #fafafa;
+ FONT-FAMILY: Arial,Verdana,Helvetica;
+ FONT-SIZE: 12px;
+ color:#000000; 
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px; 
+ margin-left: 0px;
+ vertical-align: top; 
+ overflow-x: hidden;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url("../fonts/droidsans.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+
+
+A:link
+{
+ color:inherit;
+ TEXT-DECORATION: none;
+}
+
+
+A:active
+{
+ color:inherit;
+ TEXT-DECORATION: none;
+}
+
+
+A:hover
+{
+ color:inherit;
+ TEXT-DECORATION: none;
+}
+
+
+A:visited
+{
+ color:inherit;
+ TEXT-DECORATION: none;
+}
+
+.titulo1
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(100% - 10px);
+ height: 32px; 
+ padding: 4px;
+ margin: 4px;
+ margin-top: 10px;
+
+}
+
+.titulo1 span
+{
+  text-align: left;
+  font-size : 16pt;
+  font-family : "Ubuntu", "Droid Sans",Arial,Verdana,Tahoma;      
+  font-weight: bold; 
+  color: #404040;
+  padding-left: 2px;  
+  line-height: 32px;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+
+.titulo2
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(100% - 10px);
+ height: 24px; 
+ padding: 4px;
+ margin: 4px;
+ margin-top: 10px;
+
+}
+
+.titulo2 span
+{
+  text-align: left;
+  font-size : 12pt;
+  font-family : "Ubuntu", "Droid Sans",Arial,Verdana,Tahoma;      
+  font-weight: bold; 
+  color: #404040;
+  padding-left: 2px;  
+  line-height: 20px;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+
+.divselciudades
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(70% - 10px);
+ border: 1px solid #a0a0a0;
+ padding: 4px;
+ margin: 4px;
+
+}
+
+
+.sepletra
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(100% - 10px);
+ height: 32px;
+ border-bottom: 2px solid #a0a0a0;
+ padding: 4px;
+ margin: 4px;
+ margin-top: 10px;
+}
+
+.sepletra span
+{
+  text-align: left;
+  font-size : 14pt;
+  font-family : "Ubuntu", "Droid Sans",Arial,Verdana,Tahoma;      
+  /*font-weight: bold; */
+  color: #404040;
+  padding-left: 2px;  
+  line-height: 32px;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+
+.divcity
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(20% - 10px);
+ height: 24px;
+ border: 1px solid #a0a0a0;
+ background-color: #eaeaea;
+ border-radius: 4px;
+ padding: 2px;
+ margin: 2px;
+  cursor: pointer;
+}
+
+.divcity span
+{
+  text-align: left;
+  font-size : 9pt;
+  font-family : "Ubuntu", "Droid Sans",Arial,Verdana,Tahoma;      
+  /*font-weight: bold; */
+  color: #808080;
+  padding-left: 2px;  
+  line-height: 20px;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+
+}
+
+
+.divcitysel
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(20% - 10px);
+ height: 24px;
+ border: 1px solid #a0a0a0;
+ background-color: #bbe4e9;
+ border-radius: 4px;
+ padding: 2px;
+ margin: 2px;
+  cursor: pointer;
+}
+
+.divcitysel span
+{
+  text-align: left;
+  font-size : 9pt;
+  font-family : "Ubuntu", "Droid Sans",Arial,Verdana,Tahoma;      
+  font-weight: bold;
+  color: #404040;
+  padding-left: 2px;  
+  line-height: 20px;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+
+}
+
+
+
+.divboton
+{
+ display: block;
+ float: left;
+ box-sizing: border-box;
+ width: calc(240px - 8px);
+ height: 32px;
+ border: 1px solid green;
+ background-color: #60f060;
+ cursor: pointer;
+ padding: 2px;
+ margin: 4px;
+ text-align: center;
+ border-radius: 4px;
+}
+
+.divboton span
+{
+ text-align: left;
+  font-size : 14pt;
+  font-family : "Ubuntu", "Droid Sans",Arial,Verdana,Tahoma;      
+  font-weight: bold;
+  color: #404040;
+  padding-left: 2px;  
+  line-height: 28px;
+}
+
+
+
+
+

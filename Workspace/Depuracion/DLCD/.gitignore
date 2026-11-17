@@ -1,0 +1,55 @@
+# -------------------------------------------------------
+# Archivos generados por los cuadernos Jupyter
+# -------------------------------------------------------
+
+# Datos tabulares
+*.csv
+*.tsv
+
+# Datos semiestructurados
+*.json
+*.xml
+
+# Hojas de cálculo
+*.xlsx
+*.xls
+*.ods
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------------------------------------
+# Entornos y caché de Python
+# -------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+
+# -------------------------------------------------------
+# Jupyter
+# -------------------------------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------------------------------
+# Sistema operativo
+# -------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------------------
+# Trabajo personal del alumnado (no se sube a GitHub)
+# -------------------------------------------------------
+mis_cuadernos/*
+!mis_cuadernos/LEEME.md
+
+# Configuración compartida de VS Code (excepción a *.json)
+!.vscode/*.json
+
+# Datasets de los ejercicios (excepción a *.csv)
+!**/ejercicios/datos/*.csv

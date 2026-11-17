@@ -1,0 +1,2 @@
+# Ejercicios representados en el cuaderno Jupyter
+He creado (con ayuda de la IA para mayor limpieza) un cuaderno de Jupyter para mostrar el resultado de los 3 ejercicios ya resueltos previamente en el fichero montecarlo.py.
